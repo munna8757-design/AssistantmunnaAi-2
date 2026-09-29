@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#111827">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assistant Munna AI V17"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="হ্যালো, আমি মুন্না! আমি আপনার জন্য কী করতে পারি?"
+        android:textSize="16sp"
+        android:textColor="#D1D5DB"
+        android:paddingBottom="18dp"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a message..."
+        android:textColor="#FFFFFF"
+        android:hintTextColor="#9CA3AF"
+        android:backgroundTint="#60A5FA"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎤 Voice"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat  •  Voice  •  Tools  •  Settings"
+        android:textColor="#93C5FD"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

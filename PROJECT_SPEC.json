@@ -1,0 +1,16 @@
+{
+  "name": "Assistant Munna AI",
+  "version": "V17",
+  "platform": "Android",
+  "features": [
+    "Chat",
+    "Voice",
+    "Tools",
+    "Settings",
+    "AI Provider configuration",
+    "Project Generator structure",
+    "Image feature structure",
+    "Online/Offline architecture"
+  ],
+  "package": "com.assistantmunna.ai"
+}
